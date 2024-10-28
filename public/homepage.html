@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif !important;
+        background: url("https://static.vecteezy.com/system/resources/previews/009/302/810/original/beautiful-forest-panoramic-realistic-wanderlust-background-landscape-dark-trees-pine-in-mist-design-mystery-fog-in-park-concept-nature-beauty-tourism-web-banner-free-vector.jpg") center/cover
+          no-repeat;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* semi-transparent overlay */
+      }
+
+      .container {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        color: #fff;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ff5a5f;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+      }
+
+      .button:hover {
+        background-color: #ff383d;
+      }
+    </style>
+    <title>Wanderlust</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="container">
+      <a href="/listings" class="button"
+        >Explore Wanderlust</a
+      >
+    </div>
+  </body>
+</html>
